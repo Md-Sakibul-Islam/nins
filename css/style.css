@@ -1,0 +1,518 @@
+/*
+* Template Name: Banao - Construction HTML Template
+* Author:  Giantco
+* Author URL: https://themeforest.net/user/giantco
+* Version: 1.0
+*/
+
+/* =============================================================================
+
+[Table of contents]
+
+0.0 Common CSS START 
+1.0 HEADER AREA START 
+2.0 BANNER AREA START
+3.0 OVERVIEW AREA START
+4.0 ABOUT AREA START
+5.0 SERVICE AREA START
+6.0 PROJECT AREA START
+7.0 TEAM AREA START
+8.0 WORK AREA START
+9.0 HIRE AREA START
+10.0 CONTACT AREA START 
+11.0 BLOG AREA START 
+12.0 COMMENT AREA START 
+13.0 MARKET AREA START 
+14.0 QUOTE AREA START 
+15.0 FOOTER AREA START 
+16.0 COPY_RIGHT AREA START 
+
+/*===========================
+0.0 *** Common CSS START ***
+=============================*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*===========================
+0.0 *** Common CSS END ***
+=============================*/
+
+
+/* header section css Start  */
+.header-top {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top .header-top-left img {
+    padding: 13px 20px 23px 0px;
+}
+
+.header-top-left span {
+    color: #3ca2a2;
+    font-size: 26px;
+
+}
+
+.header-top-right h3 {
+    color: #ca0711;
+    font-size: 30px;
+}
+
+.header-menu {
+    background-color: #ca0711;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding: 18px 11px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.menu ul li a:hover {
+    background-color: #f18d26;
+}
+
+.social-item i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: #ca0711;
+
+}
+
+/* header section css End  */
+
+/* banner section Start  */
+
+.banner {
+    background: url(../images/background-overly.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 75px 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.banner-wrapper {
+    display: flex;
+    position: relative;
+}
+
+
+.banner .banner-wrapper h2 {
+    color: #215a6d;
+    font-size: 36px;
+}
+
+.banner .banner-wrapper h1 {
+    color: #215a6d;
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+
+.banner .banner-wrapper p {
+    width: 335px;
+    color: #215a6d;
+    font-size: 16px;
+    margin-bottom: 63px;
+}
+
+.banner .banner-wrapper a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 40px 15px 26px;
+    border-radius: 40px;
+    color: #ffffff;
+    background-color: #92c7a3;
+}
+
+.banner-img {
+    position: absolute;
+    right: 85px;
+    bottom: -75px;
+}
+
+/* banner section End  */
+
+/* service section Start  */
+.service {
+    padding: 50px 0px 88px 0px;
+}
+
+.service-wrapper {
+    display: flex;
+    gap: 55px;
+}
+
+.service-item {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.service-item h3 {
+    font-size: 22px;
+    color: #3ca2a2;
+    margin-bottom: 25px;
+}
+
+.service-item p {
+    font-size: 13px;
+    color: #215a6d;
+    margin-bottom: 25px;
+}
+
+.service-item a {
+    font-size: 14px;
+    color: #34b4b4;
+}
+
+.service-item i {
+    color: #ca0711;
+    font-size: 15px;
+}
+
+.service-item .service-img {
+    margin-bottom: 15px;
+}
+
+/* service section End  */
+
+/* notice section Start  */
+.notice {
+    font-family: "Open Sans", sans-serif;
+    padding: 28px 0 32px 0;
+    background-color: #dfece6;
+}
+
+.notice-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.notice-board {
+    flex-basis: 50%;
+}
+
+.notice-board h2 {
+    font-size: 28px;
+    color: #215a6d;
+    position: relative;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.notice-board h2::after {
+    content: '';
+    position: absolute;
+    left: 1px;
+    bottom: -2px;
+    width: 55px;
+    border-bottom: 2px solid #ca0711;
+
+
+}
+
+.view-btn {
+    margin-left: 3px;
+    font-size: 14px;
+    color: #ca0711;
+}
+
+.featured-video {
+    flex-basis: 50%;
+}
+
+.featured-video h2 {
+    font-size: 28px;
+    position: relative;
+    color: #215a6d;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ffffff;
+
+}
+
+.featured-video h2::after {
+    content: '';
+    position: absolute;
+    left: 1px;
+    bottom: -2px;
+    width: 55px;
+    border-bottom: 2px solid #ca0711;
+}
+
+.notice-item {
+    margin: 35px 0 23px 0;
+}
+
+.notice-item li {
+    height: 42px;
+    line-height: 42px;
+    padding-left: 16px;
+    border-bottom: 1px solid #56bbc7;
+    background-color: #ffffff;
+}
+
+.notice-item li:last-child {
+    border-bottom: none;
+}
+
+.featured-video .feature-img {
+    margin-top: 45px;
+}
+
+/* notice section End  */
+
+/* news section Start  */
+.news-section {
+    padding: 65px 0 75px 0;
+}
+
+.news-wrapper {
+    display: flex;
+    gap: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.news {
+    flex-basis: 33%;
+}
+.news h2{
+    position: relative;
+    padding-bottom: 16px;
+    color: #215a6d;
+    font-size: 28px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.news h2::after{
+    content: '';
+    width: 55px;
+    position: absolute;
+    left: 2px;
+    bottom: -2px;
+    border-bottom: 2px solid #ca0711;
+}
+.news-text{
+    padding-top: 42px;
+}
+.news-text h3{
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: #3ca2a2;
+}
+.news-text p{
+    color: #489ebf;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 30px;
+    font-size: 13px;
+}
+.border-none p{
+    border: 0;
+}
+.medical {
+    flex-basis: 33%;
+}
+
+.medical h2{
+    position: relative;
+    padding-bottom: 16px;
+    color: #215a6d;
+    font-size: 28px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.medical h2::after{
+    content: '';
+    width: 55px;
+    position: absolute;
+    left: 2px;
+    bottom: -2px;
+    border-bottom: 2px solid #ca0711;
+}
+.medical-service{
+    margin-top: 47px;
+}
+ 
+.medical-service li{
+    margin-bottom: 22px;
+    padding-left: 8px;
+}
+.medical-service li i{
+    margin-right: 8px;
+    color: #ca0711;
+}
+.photo {
+    flex-basis: 33%;
+}
+
+.photo h2{
+    position: relative;
+    padding-bottom: 16px;
+    color: #215a6d;
+    font-size: 28px;
+    border-bottom: 1px solid #eaeaea;
+}
+.photo h2::after{
+    content: '';
+    width: 55px;
+    position: absolute;
+    left: 2px;
+    bottom: -2px;
+    border-bottom: 2px solid #ca0711;
+}
+
+.photo-gallery{
+    display: grid;
+    grid-template-columns: repeat(2,130px);
+    gap: 10px 30px;
+    margin-top: 40px;
+    margin-bottom: 38px;
+}
+.photo-gallery img{
+    width: 100%;
+    border: 4px solid #dfece6;
+}
+/* news section End  */
+
+/* doctors section Start  */
+.doctor-section{
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 96px;
+}
+.doctor h1{
+    font-size: 28px;
+    color: #215a6d;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+}
+
+.doctor h1::after{
+    content: '';
+    position: absolute;
+    left: 1px;
+    bottom: -2px;
+    width: 55px;
+    height: 2px;
+    background-color: #ca0711;
+}
+.doctor-wrapper{
+    display: flex;
+    gap: 30px;
+}
+
+.doctor-list{
+    margin-top: 30px;
+}
+
+.doctor-list h2{
+    padding-top: 16px;
+    font-size: 18px;
+    color: #3ca2a2;
+}
+.doctor-list h5{
+    font-size: 12px;
+    color: #878787;
+}
+
+.doctor-list p{
+    font-size: 12px;
+    color: #ca0711;
+}
+/* doctors section End  */
+
+/* footer section Start  */
+.footer-section{
+    font-family: "Open Sans", sans-serif;
+    padding: 25px  0px 44px 0px;
+    background-color: #222222;
+}
+.footer-logo{
+    margin-bottom: 45px;
+}
+.footer-logo h2{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #3ca2a2;
+}
+.footer-wrapper{
+    display: flex;
+    gap: 160px;
+}
+
+.footer-item h2{
+    color: #3ca2a2;
+    margin-bottom: 22px;
+}
+
+.footer-menu li{
+
+    margin-bottom: 20px;
+}
+.footer-menu li a{
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.footer-menu li a i{
+    color: #ca0711;
+    font-size: 13px;
+}
+.footer-bottom{
+    height: 45px;
+    background-color: #ca0711;
+    
+}
+.footer-bottom p{
+    font-family: "Open Sans", sans-serif;
+    color: #c6ded9;
+    line-height: 45px;
+    font-size: 14px;
+    text-align: center;
+}
+/* footer section End  */
